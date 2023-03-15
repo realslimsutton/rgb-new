@@ -13,7 +13,7 @@ export default function App() {
   const [store, setStore] = useState({
     colors: [...defaultColors],
     text: 'superiornetwork.org',
-    format: '<#$1$2$3$4$5$6>$f$c',
+    format: '{#$1$2$3$4$5$6}$f$c',
     formatchar: '&',
     customFormat: false,
     prefix: '',
